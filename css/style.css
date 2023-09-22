@@ -1,0 +1,344 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #BCCCCB;
+}
+
+.container{
+    max-width: 327px;
+    margin: 0 auto;
+}
+
+.main_wrapper{
+    max-width: 327px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*---header start---*/
+
+.header{
+    padding-top: 29px;
+    margin-bottom: 43px;
+}
+.header p{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Indie Flower;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*---header end---*/
+
+
+
+
+
+
+
+/*---maintext start---*/
+
+.maintext{
+    margin-bottom: 65px;
+}
+.maintext p{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Caveat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*---maintext end---*/
+
+
+
+
+
+
+
+
+/*---friends start---*/
+
+.friends__title p{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Caveat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+.friends__message-container{
+    max-width: 307px;
+    margin: 0 auto;
+}
+
+.friends__message-name{
+    padding-left: 19px;
+    margin-bottom: 10px;
+}
+
+.friends__message-name p{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Caveat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.friends__message-text p{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Caveat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 21px;
+    background: #BCCCCB;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 6px 10px;
+}
+
+.friends__message-text p>span{
+    color: yellow;
+}
+
+.friends__message-item{
+    margin-bottom: 32px;
+}
+.friends__message-item:last-child{
+    margin-bottom: 0px;
+}
+
+.friends{
+    margin-bottom: 65px;
+}
+
+/*---friends end---*/
+
+
+
+
+
+
+
+
+
+/*---image start---*/
+
+.image{
+    margin-bottom: 65px;
+}
+
+.image2{
+    padding-bottom: 95px;
+}
+
+/*---image end---*/
+
+
+
+
+
+
+
+
+
+/*---decor_ellipse start---*/
+
+.decor_ellipse{
+    width: 284px;
+    height: 284px;
+    background-color: #8EAC50;
+    border-radius: 284px;
+    filter: blur(125px);
+    position: absolute;
+    z-index: -1;
+}
+
+.e1{
+    top: -65px;
+    left: -182px;
+}
+
+.e2{
+    top: 219px;
+    left: 217px;
+}
+
+.e3{
+    top: 550px;
+    left: -182px;
+}
+
+.e4{
+    top: 834px;
+    left: 217px;
+}
+
+.e5{
+    top: 1167px;
+    left: -182px;
+}
+
+.e6{
+    top: 1451px;
+    left: 217px;
+}
+
+.e7{
+    top: 1782px;
+    left: -182px;
+}
+
+.e8{
+    top: 2066px;
+    left: 217px;
+}
+
+.e9{
+    top: 2350px;
+    left: -182px;
+}
+
+.e10{
+    top: 2634px;
+    left: 217px;
+}
+
+.e11{
+    top: 2918px;
+    left: -182px;
+}
+
+.e12{
+    top: 3202px;
+    left: 217px;
+}
+
+.e13{
+    top: 3486px;
+    left: -182px;
+}
+
+.e14{
+    top: 3770px;
+    left: 217px;
+}
+
+.e15{
+    top: 4054px;
+    left: -182px;
+}
+
+.e16{
+    top: 4338px;
+    left: 217px;
+}
+
+.e17{
+    top: 4622px;
+    left: -182px;
+}
+
+.e18{
+    top: 4906px;
+    left: 217px;
+}
+/*
+.e19{
+    top: 5190px;
+    left: -182px;
+}
+
+.e20{
+    top: 5474px;
+    left: 217px;
+}
+
+.e21{
+    top: 5758px;
+    left: -182px;
+}
+
+.e22{
+    top: 6042px;
+    left: 217px;
+}
+*/
+
+/*---decor_ellipse end---*/
